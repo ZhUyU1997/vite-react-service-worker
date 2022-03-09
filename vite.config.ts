@@ -5,7 +5,7 @@ import replace from '@rollup/plugin-replace'
 
 const pwaOptions: Partial<VitePWAOptions> = {
   mode: 'development',
-  base: '/',
+  base: '/vite-react-service-worker/',
   includeAssets: ['favicon.svg'],
   manifest: {
     name: 'PWA Router',
@@ -54,7 +54,7 @@ if (reload) {
 
 export default defineConfig({
 
-  base: process.env.BASE_URL || 'https://zhuyu1997.github.io/vite-react-service-worker/',
+  base: '/vite-react-service-worker/',
   build: {
     outDir: "./docs",
     sourcemap: process.env.SOURCE_MAP === 'true',

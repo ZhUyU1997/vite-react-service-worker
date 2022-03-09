@@ -12,7 +12,7 @@
     "start-sw-claims": "npm run run-build-sw-claims && npm run serve",
     "start-sw-claims-reloadsw": "npm run run-build-sw-reloadsw-claims && npm run serve",
     "dev": "cross-env DEBUG=vite-plugin-pwa:* vite",
-    "build": "cross-env DEBUG=vite-plugin-pwa:* BASE_URL=/ SOURCE_MAP=true vite build",
+    "build": "cross-env DEBUG=vite-plugin-pwa:* BASE_URL=/vite-react-service-worker/ SOURCE_MAP=true vite build",
     "run-build": "cross-env DEBUG=vite-plugin-pwa:* BASE_URL=/ SOURCE_MAP=true vite build",
     "run-build-reloadsw": "cross-env DEBUG=vite-plugin-pwa:* BASE_URL=/ SOURCE_MAP=true RELOAD_SW=true vite build",
     "run-build-claims": "cross-env DEBUG=vite-plugin-pwa:* BASE_URL=/ SOURCE_MAP=true CLAIMS=true vite build",
