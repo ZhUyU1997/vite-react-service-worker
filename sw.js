@@ -93,17 +93,47 @@ define(['./workbox-77b5c400'], (function (workbox) { 'use strict';
    */
 
   workbox.precacheAndRoute([{
-    "url": "assets/index.7787f578.css",
+    "url": "assets/index.4aec4257.css",
     "revision": null
   }, {
-    "url": "assets/index.a0b960ef.js",
+    "url": "assets/index.e531659b.js",
     "revision": null
   }, {
-    "url": "assets/vendor.91d6440d.js",
+    "url": "assets/vendor.d72b9cf0.js",
     "revision": null
+  }, {
+    "url": "docs/assets/index.4aec4257.css",
+    "revision": null
+  }, {
+    "url": "docs/assets/index.6e2a45c3.js",
+    "revision": null
+  }, {
+    "url": "docs/assets/vendor.d72b9cf0.js",
+    "revision": null
+  }, {
+    "url": "docs/index.html",
+    "revision": "611de2781f42d1bc841e25dc8d446ac9"
+  }, {
+    "url": "docs/sw.js",
+    "revision": "38cb8a079c7bce25682a90d40072aec5"
+  }, {
+    "url": "docs/workbox-77b5c400.js",
+    "revision": "b6ab270417e0912c755a7a468246fa89"
   }, {
     "url": "index.html",
-    "revision": "ce5d5857cef3b7d622fac911298d702e"
+    "revision": "69b771b67794587498e3ebdd1349d5e8"
+  }, {
+    "url": "src/App.css",
+    "revision": "231d00f71d90195bf0134abd356bc3be"
+  }, {
+    "url": "src/index.css",
+    "revision": "6c2104b8d219ed99234ae2d6329f4357"
+  }, {
+    "url": "src/pages/Home.css",
+    "revision": "246f1739aad5689111bd2602d7b3280a"
+  }, {
+    "url": "src/ReloadPrompt.css",
+    "revision": "f8fc2182ae81d9c31b0c761325f3200f"
   }, {
     "url": "favicon.svg",
     "revision": "71dcfd191507c31dc79efe3341dfa3b9"
@@ -115,7 +145,7 @@ define(['./workbox-77b5c400'], (function (workbox) { 'use strict';
     "revision": "4db5b8fe442a8f8fdc6e35cd40138057"
   }, {
     "url": "manifest.webmanifest",
-    "revision": "cdad4873ef82f87f2d5ea557ed6ef103"
+    "revision": "7e32a248dc4e60b1f0d8291552d50843"
   }], {});
   workbox.cleanupOutdatedCaches();
   workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html")));
